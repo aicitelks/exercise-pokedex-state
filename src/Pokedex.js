@@ -45,7 +45,6 @@ class Pokedex extends React.Component {
   render() {
     const filteredPokemons = this.fetchFilteredPokemons();
     const pokemonTypes = this.fetchPokemonTypes();
-    // porque está passando o parâmentro para a função entre colchetes e não entre parênteses?
     const pokemon = filteredPokemons[this.state.pokemonIndex];
 
     return (
