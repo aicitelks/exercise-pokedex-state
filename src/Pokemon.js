@@ -16,6 +16,5 @@ class Pokemon extends React.Component {
             </div>
         );
     }
-}
 
 export default Pokemon;
