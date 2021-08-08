@@ -1,6 +1,5 @@
-import React from 'react';
 import './App.css';
-import pokemons from './data';
+import React from 'react';
 import Pokedex from './Pokedex';
 
 class App extends React.Component {
@@ -12,6 +11,6 @@ class App extends React.Component {
       </div>
     );
   }
-}
+
 
 export default App;
